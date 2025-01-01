@@ -1,0 +1,33 @@
+{
+  "name": "react-hover-graphic",
+  "version": "0.0.1",
+  "description": "A React component to effortlessly display a graphic on hover.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --dts --format cjs,esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattrltrent/react-hover-graphic.git"
+  },
+  "author": "Matthew Trent",
+  "license": "MIT",
+  "homepage": "https://github.com/mattrltrent/react-hover-graphic",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "react": {
+    "next": {
+      "useClient": true
+    }
+  }
+}
