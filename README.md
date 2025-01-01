@@ -46,9 +46,7 @@ yarn add react-hover-graphic
 
 - The package is always open to [improvements](https://github.com/mattrltrent/react-hover-graphic/issues), [suggestions](mailto:me@matthewtrent.me), and [additions](https://github.com/mattrltrent/react-hover-graphic/pulls)!
 
-- I'll look through PRs and issues as soon as I can!
-
-- [Learn about me](https://matthewtrent.me).
+- I'll look through PRs and Issues as soon as I can!
 
 - This package was mainly created just to test out publishing a package to npmjs. Also, because I like using this effect on websites I make and wanted an easier way to implement it.
 

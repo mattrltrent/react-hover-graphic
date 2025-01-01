@@ -1,6 +1,6 @@
 {
   "name": "react-hover-graphic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A React component to effortlessly display a graphic on hover.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -14,7 +14,7 @@
   },
   "author": "Matthew Trent",
   "license": "MIT",
-  "homepage": "https://github.com/mattrltrent/react-hover-graphic",
+  "homepage": "https://matthewtrent.me",
   "keywords": [
     "react",
     "react-component",
