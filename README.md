@@ -50,3 +50,5 @@ yarn add react-hover-graphic
 
 - [Learn about me](https://matthewtrent.me).
 
+- This package was mainly created just to test out publishing a package to npmjs. Also, because I like using this effect on websites I make and wanted an easier way to implement it.
+
