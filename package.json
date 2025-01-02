@@ -1,12 +1,18 @@
 {
   "name": "react-hover-graphic",
-  "version": "0.0.3",
-  "description": "A React component to effortlessly display a graphic on hover.",
+  "version": "0.0.4",
+  "description": "A React component to effortlessly display a graphic on hover",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
   "scripts": {
-    "build": "tsup src/index.tsx --dts --format cjs,esm"
+    "build": "tsup src/index.tsx --dts --format cjs,esm --clean"
   },
   "repository": {
     "type": "git",
