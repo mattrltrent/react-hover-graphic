@@ -1,6 +1,6 @@
 {
   "name": "react-hover-graphic",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A React component to effortlessly display a graphic on hover",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

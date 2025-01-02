@@ -1,4 +1,3 @@
-
 <div align="center">
   <h1>🔥 Display an On-Hover Graphic Following Your Cursor 🔥</h1>
   <img src="https://raw.githubusercontent.com/mattrltrent/random_assets/refs/heads/main/react-hover-graphic-ezgif.com-video-to-gif-converter.gif" alt="demo">
@@ -8,24 +7,30 @@
 
 ## One Simple Way to Use 📚
 
-```typescript
+```ts
+import React from "react";
 import HoverGraphic from "react-hover-graphic";
 
-<HoverGraphic
-  src="https://matthewtrent.me/cat_shock.gif" // graphic source (local or remote)
-  height="100px" // graphic height; default: "auto"
-  width="200px" // graphic width; default: "auto"
-  objectFit="contain" // graphic object-fit ("cover" | "contain" | "fill" | "none" | "scale-down"); default: "cover"
-  offsetTop={0} // graphic offset top; default: 0
-  offsetLeft={0} // graphic offset left; default: 0
-  offsetRight={0} // graphic offset right; default: 0
-  offsetBottom={60} // graphic offset bottom; default: 0
-  zIndex={9999} // graphic z-index; default: 9999
-  disabled={false} // disable effect; default: false
-  disabledOnMobile={false} // disable effect on mobile; default: true
->
-  <a href="https://matthewtrent.me">Anything can go here</a>
-</HoverGraphic>;
+export const ExampleComponent: React.FC = () => {
+  return (
+    <HoverGraphic
+      src="https://matthewtrent.me/cat_shock.gif" // graphic source (local or remote)
+      height="100px" // graphic height; default: "auto"
+      width="200px" // graphic width; default: "auto"
+      objectFit="contain" // graphic object-fit ("cover" | "contain" | "fill" | "none" | "scale-down"); default: "cover"
+      offsetTop={0} // graphic offset top; default: 0
+      offsetLeft={0} // graphic offset left; default: 0
+      offsetRight={0} // graphic offset right; default: 0
+      offsetBottom={60} // graphic offset bottom; default: 0
+      zIndex={9999} // graphic z-index; default: 9999
+      disabled={false} // disable effect; default: false
+      disabledOnMobile={false} // disable effect on mobile; default: true
+    >
+      // any children, here's an example link
+      <a href="https://matthewtrent.me">hello world</a>
+    </HoverGraphic>
+  );
+};
 ```
 
 ## Installing 🧑‍🏫
@@ -49,4 +54,3 @@ yarn add react-hover-graphic
 - I'll look through PRs and Issues as soon as I can!
 
 - This package was mainly created just to test out publishing a package to npmjs. Also, because I like using this effect on websites I make and wanted an easier way to implement it.
-
